@@ -1,0 +1,17 @@
+Django cheatsheet:
+
+    * start a project:
+        django-admin startproject (name of the projcet)
+    
+    * create an app:
+        in the project directory in this case (name of the project/)
+        django-admin startapp (name of the app)
+        once you created an app, you have to add it to the project
+    
+    * add apps to your projcet:
+        project directory >> settings.py >> Installed apps >> name.apps.(config name from apps.py>>app)
+    
+    * fist time runnig the project:
+        python manage.py makemigrations
+        python manage.py migrate
+        python manage.py runserver
